@@ -17,31 +17,17 @@ class ImageCacheManage {
    fileprivate let storage = try? Storage(
         diskConfig: DiskConfig(name: "AtImage.Cache"),
         memoryConfig: MemoryConfig(expiry: .never, countLimit: 10, totalCostLimit: 10),
-        transformer: TransformerFactory.forImage() // Storage<UIImage>
+        transformer: TransformerFactory.forImage()
     )
-
-    
-//    fileprivate let storage: Storage = {
-//        let diskConfig = DiskConfig(name: "AtImage.Cache")
-//        let memoryConfig = MemoryConfig(expiry: .never, countLimit: 10, totalCostLimit: 10)
-//
-//        do {
-//            return try Storage(diskConfig: diskConfig, memoryConfig: memoryConfig, transformer: TransformerFactory.forImage())
-//        } catch {
-//            assertionFailure(error.localizedDescription)
-//            return nil
-//        }
-//    }()
-    
     
     func saveAtImage(image: UIImage?, key: String)  {
         guard let image = image else{ return }
-        let imageStorage = storage?.transformImage() // Storage<UIImage>
+        let imageStorage = storage?.transformImage()
         try? imageStorage?.setObject(image, forKey: key)
     }
     
     func getAtCacheImage(key: String) -> UIImage? {
-        let imageStorage = storage?.transformImage() // Storage<UIImage>
+        let imageStorage = storage?.transformImage()
         let image = try? imageStorage?.object(forKey: key)
         return image
     }
