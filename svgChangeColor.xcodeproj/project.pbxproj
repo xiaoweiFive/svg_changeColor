@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DBA80C711C91F6F5930566AC /* Pods_svgChangeColor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC771C81B5E5FD81D59BF0A6 /* Pods_svgChangeColor.framework */; };
+		FAB6403A2282C03A00126ED9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB640392282C03A00126ED9 /* AppDelegate.swift */; };
+		FAB6403C2282C03A00126ED9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB6403B2282C03A00126ED9 /* ViewController.swift */; };
+		FAB6403F2282C03A00126ED9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB6403D2282C03A00126ED9 /* Main.storyboard */; };
+		FAB640412282C03C00126ED9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB640402282C03C00126ED9 /* Assets.xcassets */; };
+		FAB640442282C03C00126ED9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB640422282C03C00126ED9 /* LaunchScreen.storyboard */; };
+		FAB6404C2282C13600126ED9 /* diaozhui_zhengfangxing.svg in Resources */ = {isa = PBXBuildFile; fileRef = FAB6404B2282C13600126ED9 /* diaozhui_zhengfangxing.svg */; };
+		FAB6404E2282C4FE00126ED9 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB6404D2282C4FE00126ED9 /* RootViewController.swift */; };
+		FAB640502282C71400126ED9 /* ImageCacheManage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB6404F2282C71400126ED9 /* ImageCacheManage.swift */; };
+		FAB640522282CA6800126ED9 /* shixinzhengfangxing.svg in Resources */ = {isa = PBXBuildFile; fileRef = FAB640512282CA6800126ED9 /* shixinzhengfangxing.svg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		20F3FC0D25D515F501E2EE43 /* Pods-svgChangeColor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-svgChangeColor.release.xcconfig"; path = "Pods/Target Support Files/Pods-svgChangeColor/Pods-svgChangeColor.release.xcconfig"; sourceTree = "<group>"; };
+		EB145FA42149F4579825C559 /* Pods-svgChangeColor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-svgChangeColor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-svgChangeColor/Pods-svgChangeColor.debug.xcconfig"; sourceTree = "<group>"; };
+		FAB640362282C03A00126ED9 /* svgChangeColor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = svgChangeColor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAB640392282C03A00126ED9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAB6403B2282C03A00126ED9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAB6403E2282C03A00126ED9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAB640402282C03C00126ED9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAB640432282C03C00126ED9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAB640452282C03C00126ED9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAB6404B2282C13600126ED9 /* diaozhui_zhengfangxing.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = diaozhui_zhengfangxing.svg; sourceTree = "<group>"; };
+		FAB6404D2282C4FE00126ED9 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		FAB6404F2282C71400126ED9 /* ImageCacheManage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCacheManage.swift; sourceTree = "<group>"; };
+		FAB640512282CA6800126ED9 /* shixinzhengfangxing.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = shixinzhengfangxing.svg; sourceTree = "<group>"; };
+		FC771C81B5E5FD81D59BF0A6 /* Pods_svgChangeColor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_svgChangeColor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAB640332282C03A00126ED9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBA80C711C91F6F5930566AC /* Pods_svgChangeColor.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3867BF052930CE45F36F3E6D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EB145FA42149F4579825C559 /* Pods-svgChangeColor.debug.xcconfig */,
+				20F3FC0D25D515F501E2EE43 /* Pods-svgChangeColor.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9002B4952873F3663272F6A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC771C81B5E5FD81D59BF0A6 /* Pods_svgChangeColor.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAB6402D2282C03A00126ED9 = {
+			isa = PBXGroup;
+			children = (
+				FAB640382282C03A00126ED9 /* svgChangeColor */,
+				FAB640372282C03A00126ED9 /* Products */,
+				3867BF052930CE45F36F3E6D /* Pods */,
+				9002B4952873F3663272F6A4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FAB640372282C03A00126ED9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAB640362282C03A00126ED9 /* svgChangeColor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAB640382282C03A00126ED9 /* svgChangeColor */ = {
+			isa = PBXGroup;
+			children = (
+				FAB640392282C03A00126ED9 /* AppDelegate.swift */,
+				FAB6403B2282C03A00126ED9 /* ViewController.swift */,
+				FAB6404D2282C4FE00126ED9 /* RootViewController.swift */,
+				FAB6404F2282C71400126ED9 /* ImageCacheManage.swift */,
+				FAB6404B2282C13600126ED9 /* diaozhui_zhengfangxing.svg */,
+				FAB640512282CA6800126ED9 /* shixinzhengfangxing.svg */,
+				FAB6403D2282C03A00126ED9 /* Main.storyboard */,
+				FAB640402282C03C00126ED9 /* Assets.xcassets */,
+				FAB640422282C03C00126ED9 /* LaunchScreen.storyboard */,
+				FAB640452282C03C00126ED9 /* Info.plist */,
+			);
+			path = svgChangeColor;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAB640352282C03A00126ED9 /* svgChangeColor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAB640482282C03C00126ED9 /* Build configuration list for PBXNativeTarget "svgChangeColor" */;
+			buildPhases = (
+				DD53E6C03B0CCE5F2EA3B6A4 /* [CP] Check Pods Manifest.lock */,
+				FAB640322282C03A00126ED9 /* Sources */,
+				FAB640332282C03A00126ED9 /* Frameworks */,
+				FAB640342282C03A00126ED9 /* Resources */,
+				0B7B91EB1E2B6B5EFD562568 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = svgChangeColor;
+			productName = svgChangeColor;
+			productReference = FAB640362282C03A00126ED9 /* svgChangeColor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAB6402E2282C03A00126ED9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "玮大爷";
+				TargetAttributes = {
+					FAB640352282C03A00126ED9 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = FAB640312282C03A00126ED9 /* Build configuration list for PBXProject "svgChangeColor" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAB6402D2282C03A00126ED9;
+			productRefGroup = FAB640372282C03A00126ED9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAB640352282C03A00126ED9 /* svgChangeColor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAB640342282C03A00126ED9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB640442282C03C00126ED9 /* LaunchScreen.storyboard in Resources */,
+				FAB640412282C03C00126ED9 /* Assets.xcassets in Resources */,
+				FAB6404C2282C13600126ED9 /* diaozhui_zhengfangxing.svg in Resources */,
+				FAB640522282CA6800126ED9 /* shixinzhengfangxing.svg in Resources */,
+				FAB6403F2282C03A00126ED9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B7B91EB1E2B6B5EFD562568 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-svgChangeColor/Pods-svgChangeColor-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Cache/Cache.framework",
+				"${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework",
+				"${BUILT_PRODUCTS_DIR}/SVGKit/SVGKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaLumberjack.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVGKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-svgChangeColor/Pods-svgChangeColor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD53E6C03B0CCE5F2EA3B6A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-svgChangeColor-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAB640322282C03A00126ED9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB6403C2282C03A00126ED9 /* ViewController.swift in Sources */,
+				FAB640502282C71400126ED9 /* ImageCacheManage.swift in Sources */,
+				FAB6403A2282C03A00126ED9 /* AppDelegate.swift in Sources */,
+				FAB6404E2282C4FE00126ED9 /* RootViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FAB6403D2282C03A00126ED9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAB6403E2282C03A00126ED9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAB640422282C03C00126ED9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAB640432282C03C00126ED9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAB640462282C03C00126ED9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAB640472282C03C00126ED9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAB640492282C03C00126ED9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB145FA42149F4579825C559 /* Pods-svgChangeColor.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = svgChangeColor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zhangzhenwei.svgChangeColor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAB6404A2282C03C00126ED9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20F3FC0D25D515F501E2EE43 /* Pods-svgChangeColor.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = svgChangeColor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zhangzhenwei.svgChangeColor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAB640312282C03A00126ED9 /* Build configuration list for PBXProject "svgChangeColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB640462282C03C00126ED9 /* Debug */,
+				FAB640472282C03C00126ED9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAB640482282C03C00126ED9 /* Build configuration list for PBXNativeTarget "svgChangeColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB640492282C03C00126ED9 /* Debug */,
+				FAB6404A2282C03C00126ED9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAB6402E2282C03A00126ED9 /* Project object */;
+}
